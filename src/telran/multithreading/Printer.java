@@ -23,6 +23,7 @@ public class Printer extends Thread {
 		int currentRepeat = 1;
 		while (currentRepeat <= countOfRepeats) {
 			try {
+				// V.R. Why it is hard coded? Generally it isn't recommended
 				sleep(7000);
 			} catch (InterruptedException e) {
 				System.out.println(("" + printerNumner).repeat(portionSize));

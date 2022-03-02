@@ -14,6 +14,7 @@ public class Controller {
 
 		
 		ArrayList<Printer> printersList = new ArrayList<>();
+		// V.R. It seems to me that 2 circles may be joined
 		for(int i = 1; i<= N_PRINTERS; i++) {
 			printersList.add(new Printer(i, N_NUMBERS, N_PORTIONS));
 			}
